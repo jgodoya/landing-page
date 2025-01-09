@@ -34,8 +34,10 @@ a {
 #signup-one {
     background-color: #3882f6;
     color: white;
-    border-color: #3882f6;
+    border: none;
+    text-decoration: none;
     border-radius: 5px;
+    padding: 8px 24px;
 }
 
 .right-box {
