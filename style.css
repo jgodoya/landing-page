@@ -28,7 +28,8 @@ a {
 }
 
 #website-text {
-
+font-size: 18px;
+color: #e5e7eb;
 }
 
 #signup-one {
@@ -42,10 +43,31 @@ a {
 
 .right-box {
 background-color: #e5e7eb;
+color: #f9faf8;
 }
 
 .section-two {
     background-color: white;
+}
+
+.four-boxes {
+
+}
+
+.firstbox {
+
+}
+
+.secondbox {
+
+}
+
+.thirdbox {
+
+}
+
+.firstbox {
+
 }
 
 .section-three { 
