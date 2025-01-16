@@ -6,15 +6,25 @@ html {
     background-color: #1F2937;
 }
 
+.banner {
+display: flex;
+flex-direction: row;
+}
+
 #header {
     font-size: 24px;
     color: #f9faf8;
+    justify-content: flex-start;
 }
 
+.links {
+    justify-content: space-around;
+    align-items: flex-end;
+}
 a {
+    text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
-    text-decoration: none;
 }
 
 .unit1 {display: flex;
@@ -22,13 +32,13 @@ flex-direction: row;
 justify-content: center;
 margin: 20px auto 20px auto;
 max-width: 1200px;
-max-height: 600px;
-padding: 5px;
+max-height: 650px;
+padding: 80px;
 align-content: center;}
 
 .left-box {flex-grow: 1;
     width: 600px;
-    height: 300px;
+    height: 325px;
 
 }
 
@@ -57,7 +67,10 @@ background-color: grey;
 color: #e5e7eb;
 flex-grow: 1;
 width: 600px;
-height: 300px;
+height: 325px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .section-two {
