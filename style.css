@@ -15,16 +15,22 @@ flex-direction: row;
     font-size: 24px;
     color: #f9faf8;
     justify-content: flex-start;
+    margin-top: 15px;
+    margin-left: 8%;
 }
 
-.links {
-    justify-content: space-around;
+.links { margin-left: 45%;
     align-items: flex-end;
+    margin-top: 15px;
+
 }
 a {
-    text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+    text-decoration: none;
+    padding-left: 8px;
+    justify-content: space-around;
+
 }
 
 .unit1 {display: flex;
@@ -76,29 +82,75 @@ align-items: center;
 .section-two {
     background-color: white;
 }
+h2 {
+margin-left: 40%;
+}
 
 .four-boxes {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.contenido-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 
 }
-
-.firstbox {
-
+.firstbox { 
+    width: 20px;
+    height: 20px;
+    border: 3px solid #3882f6;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
 }
-
+.contenido-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 .secondbox {
-
+    width: 20px;
+    height: 20px;
+    border: 3px solid #3882f6;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
 }
-
+.contenido-3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 .thirdbox {
+    width: 20px;
+    height: 20px;
+    border: 3px solid #3882f6;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.contenido-4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.fourthbox {
+    width: 20px;
+    height: 20px;
+    border: 3px solid #3882f6;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
 
 }
-
-.firstbox {
-
-}
-
 .section-three { 
     background-color: #e5e7eb;
+}
+#inspiring-text {
+    color: #1F2937;
+font-size: 36px;
 }
 
 .section-four {
