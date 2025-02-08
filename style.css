@@ -147,10 +147,21 @@ justify-content: center;
 }
 .section-three { 
     background-color: #e5e7eb;
+    padding: 32px;
 }
 #inspiring-text {
-    color: #1F2937;
+    color:#1F2937;
 font-size: 36px;
+font-weight: 100;
+margin-left: 25%;
+margin-bottom: 0;
+}
+
+#thor {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 22%;
+    margin-top: 0;
 }
 
 .section-four {
