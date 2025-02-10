@@ -166,8 +166,31 @@ margin-bottom: 0;
 
 .section-four {
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    margin: auto;
+}
+.boxcontainer {
+    background-color: #3882f6;
+    width: 1000px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
 }
 
+.left-container {
+
+}
+#call {
+color: white;
+}
+#p-sign {
+color: #e5e7eb;
+}
 .section-five {
     background-color: #1F2937;
     color: #e5e7eb;
